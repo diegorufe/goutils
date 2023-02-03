@@ -17,7 +17,7 @@ func StartWith(value string, values ...string) bool {
 	return starWith
 }
 
-func EndtWith(value string, values ...string) bool {
+func EndWith(value string, values ...string) bool {
 	var endWith bool = false
 
 	for _, s := range values {

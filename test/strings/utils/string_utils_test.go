@@ -14,9 +14,9 @@ func TestStarWidth(t *testing.T) {
 }
 
 func TestEndWith(t *testing.T) {
-	assertions.AssertTrue(t, utils.EndtWith("TEST", "T"))
-	assertions.AssertTrue(t, utils.EndtWith("TEST", "A", "B", "T"))
-	assertions.AssertFalse(t, utils.EndtWith("TEST", "A", "B", "E"))
+	assertions.AssertTrue(t, utils.EndWith("TEST", "T"))
+	assertions.AssertTrue(t, utils.EndWith("TEST", "A", "B", "T"))
+	assertions.AssertFalse(t, utils.EndWith("TEST", "A", "B", "E"))
 }
 
 func TestContains(t *testing.T) {
